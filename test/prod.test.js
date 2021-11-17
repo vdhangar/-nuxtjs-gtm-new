@@ -38,7 +38,7 @@ describe('prod', () => {
 
   test('gtag script should be present in header', async () => {
     const html = await get('/')
-    expect(html).toContain('https://www.googletagmanager.com/gtag/js?id=UA-XXX-XX')
+    expect(html).toContain('https://www.googletagmanager.com/gtm/js?id=UA-XXX-XX')
   })
 
   test('should not debug when gtag script be present in header', () => {

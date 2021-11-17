@@ -1,4 +1,4 @@
-# @nuxtjs/google-gtag
+# @nuxtjs/gtm-new
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -27,7 +27,7 @@ The module includes Google `googletagmanager.com/gtag/js` into your project and 
 yarn add @nuxtjs/gtm-new # or npm install @nuxtjs/gtm-new
 ```
 
-2. Add `@nuxtjs/google-gtag` to the `modules` section of `nuxt.config.js`
+2. Add `@nuxtjs/gtm-new` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
@@ -146,17 +146,17 @@ Install [`Google Tag Assistant`](https://chrome.google.com/webstore/detail/tag-a
 Copyright (c) Nuxt Community
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/google-gtag/latest.svg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/google-gtag
+[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/gtm-new/latest.svg?style=flat-square
+[npm-version-href]: https://npmjs.com/package/@nuxtjs/gtm-new
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/google-gtag.svg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/google-gtag
+[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/gtm-new.svg?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/gtm-new
 
-[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/google-gtag.svg?style=flat-square
-[circle-ci-href]: https://circleci.com/gh/nuxt-community/google-gtag
+[circle-ci-src]: https://img.shields.io/circleci/project/github/nuxt-community/gtm-new.svg?style=flat-square
+[circle-ci-href]: https://circleci.com/gh/nuxt-community/gtm-new
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/google-gtag.svg?style=flat-square
-[codecov-href]: https://codecov.io/gh/nuxt-community/google-gtag
+[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/gtm-new.svg?style=flat-square
+[codecov-href]: https://codecov.io/gh/nuxt-community/gtm-new
 
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/google-gtag.svg?style=flat-square
-[license-href]: https://npmjs.com/package/@nuxtjs/google-gtag
+[license-src]: https://img.shields.io/npm/l/@nuxtjs/gtm-new.svg?style=flat-square
+[license-href]: https://npmjs.com/package/@nuxtjs/gtm-new
