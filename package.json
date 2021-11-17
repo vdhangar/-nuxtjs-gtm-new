@@ -1,0 +1,40 @@
+{
+  "name": "@nuxtjs/google-gtag",
+  "version": "1.0.4",
+  "description": "Google GTag for Nuxt.js",
+  "license": "MIT",
+  "contributors": [
+    "Dominic Garms <djgarms@gmail.com>"
+  ],
+  "main": "lib/module.js",
+  "repository": "nuxt-community/google-gtag",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "dev": "nuxt test/fixture/dev",
+    "lint": "eslint --ext .js,.vue lib test",
+    "test": "yarn lint && jest",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "consola": "^2.9.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "get-port": "latest",
+    "husky": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "request": "latest",
+    "request-promise-native": "latest",
+    "standard-version": "latest"
+  }
+}
