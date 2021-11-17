@@ -1,10 +1,10 @@
 {
-  "name": "@nuxtjs/google-gtag",
-  "version": "1.0.4",
+  "name": "@nuxtjs/gtm-new",
+  "version": "1.0.0",
   "description": "Google GTag for Nuxt.js",
   "license": "MIT",
   "contributors": [
-    "Dominic Garms <djgarms@gmail.com>"
+    "Vikram Dhangar <vdhangar@gmail.com>"
   ],
   "main": "lib/module.js",
   "repository": "nuxt-community/google-gtag",

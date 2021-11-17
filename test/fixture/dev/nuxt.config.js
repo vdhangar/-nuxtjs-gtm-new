@@ -11,7 +11,7 @@ module.exports = {
   modules: [
     { handler: require('../../../') }
   ],
-  'google-gtag': {
+  'gtm-new': {
     id: 'UA-XXX-XX'
   }
 }
