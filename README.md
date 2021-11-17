@@ -21,10 +21,10 @@ The module includes Google `googletagmanager.com/gtag/js` into your project and 
 
 ## Setup
 
-1. Add `@nuxtjs/google-gtag` dependency to your project
+1. Add `@nuxtjs/gtm-new` dependency to your project
 
 ```bash
-yarn add @nuxtjs/google-gtag # or npm install @nuxtjs/google-gtag
+yarn add @nuxtjs/gtm-new # or npm install @nuxtjs/gtm-new
 ```
 
 2. Add `@nuxtjs/google-gtag` to the `modules` section of `nuxt.config.js`
@@ -33,10 +33,10 @@ yarn add @nuxtjs/google-gtag # or npm install @nuxtjs/google-gtag
 {
   modules: [
     // Simple usage
-    '@nuxtjs/google-gtag',
+    '@nuxtjs/gtm-new',
 
     // With options
-    ['@nuxtjs/google-gtag', { /* module options */ }]
+    ['@nuxtjs/gtm-new', { /* module options */ }]
   ]
 }
 ```
@@ -46,9 +46,9 @@ yarn add @nuxtjs/google-gtag # or npm install @nuxtjs/google-gtag
 ```js
 {
   modules: [
-    '@nuxtjs/google-gtag'
+    '@nuxtjs/gtm-new'
   ],
-  'google-gtag': {
+  'gtm-new': {
     id: 'UA-XXXX-XX',
     config: {
       anonymize_ip: true, // anonymize IP 
